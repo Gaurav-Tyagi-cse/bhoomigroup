@@ -1371,7 +1371,7 @@
 /*----------------------breadcumb--------------------*/
 .breadcumb-section {
   padding: 137px 0px 135px 0px;
-  background-image: url(../../assets/images/page/breakcrumb.jpg);
+  background-image: url(../../img/development.avif);
   position: relative;
   background-position: center;
   background-repeat: no-repeat;
@@ -1389,6 +1389,7 @@
 .breadcumb-section .title {
   color: #FFFFFF;
   margin-bottom: 26px;
+  
 }
 .breadcumb-section .breadcumb-list li {
   font-size: 18px;
@@ -1399,6 +1400,7 @@
 .breadcumb-section .breadcumb-list li a {
   color: #4DA528;
   margin-right: 30px;
+  
 }
 .breadcumb-section .breadcumb-list li a::before {
   position: absolute;
@@ -1846,7 +1848,7 @@
 .video-h4-widget {
   padding-top: 168px;
   padding-bottom: 65px;
-  background-image: url(../../assets/images/page/video1.jpg);
+  background-image: url(../../img/development.avif);
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -2632,7 +2634,7 @@
 .counter-to {
   padding-top: 170px;
   padding-bottom: 71px;
-  background-image: url(../../assets/images/page/bg-counter.jpg);
+  background-image: url(../../img/development.avif);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
