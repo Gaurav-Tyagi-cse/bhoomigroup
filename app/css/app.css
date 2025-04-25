@@ -1377,6 +1377,7 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 .breadcumb-section::before {
   position: absolute;
   content: "";
