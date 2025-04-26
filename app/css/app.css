@@ -739,7 +739,8 @@
 }
 .mobile-menu .nav-logo {
   position: relative;
-  background: #0A0A0A;
+  /* background: #0A0A0A; */
+  background: white;
   box-shadow: 0px 4px 18px 0px rgba(0, 0, 0, 0.08);
   padding: 12px 20px;
 }
