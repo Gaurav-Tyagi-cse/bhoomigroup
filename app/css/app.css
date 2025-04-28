@@ -2780,7 +2780,7 @@
 
 /*----------------------Testimonial--------------------*/
 .widget-testimonial-style01 {
-  padding-top: 289px;
+  padding-top: 40px;
   padding-bottom: 158px;
   background-color: #F1F6F4;
   background-image: url(../../assets/images/page/bg2.png);
@@ -6347,7 +6347,7 @@
   text-align: center;
   z-index: 999;
   right: 25px;
-  bottom: 30px;
+  bottom: 10px;
   opacity: 0;
   visibility: hidden;
   cursor: pointer;
@@ -10698,7 +10698,7 @@ body .dribbble img {
     display: none;
   }
   .widget-testimonial-style01 {
-    padding-top: 200px;
+    padding-top: 0px;
     padding-bottom: 88px;
   }
   .nav-tabs-adventure .nav-link i {
@@ -11694,3 +11694,60 @@ body .dribbble img {
 }
 
 /*# sourceMappingURL=app.css.map */
+
+/* Whatshapp */
+
+
+.whatsapp-icon {      
+  width: 50px; /* Adjust width */
+  height: 50px; /* Adjust height */
+  object-fit: contain; /* Ensure aspect ratio is maintained */
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #039B3D;
+  color: white;
+  border-radius: 50%;
+  padding: 10px; /* Adjust padding to fit icon better */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  z-index: 1000;
+  display: flex; /* Center the image */
+  align-items: center; /* Center vertically */
+  justify-content: center; /* Center horizontally */
+  margin-bottom: 40px;
+  margin-right: 0px;
+  
+  }
+  
+  /* Hover effect */
+  .whatsapp-icon:hover {
+  background-color: #128C7E;
+  }
+  
+  @media screen and (max-width:768px){
+  
+  .whatsapp-icon {
+  
+       
+      width: 50px; /* Adjust width */
+      height: 50px; /* Adjust height */
+      object-fit: contain; /* Ensure aspect ratio is maintained */
+      position: fixed;
+      bottom: 20px;
+      
+      background-color: #25D366;
+      color: white;
+      border-radius: 50%;
+      padding: 10px; /* Adjust padding to fit icon better */
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+      cursor: pointer;
+      z-index: 1000;
+      display: flex; /* Center the image */
+      align-items: center; /* Center vertically */
+      justify-content: center; /* Center horizontally */
+      margin-bottom: 40px;
+     margin-right: -1px;
+      
+  }
+  }

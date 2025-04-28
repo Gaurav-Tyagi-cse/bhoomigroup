@@ -271,3 +271,18 @@
 
 })(jQuery);
 
+
+
+// whatshapp js
+
+
+function openWhatsAppChat() {
+    // Replace with your phone number in international format
+    var phoneNumber = "918130787194";  // Example: 91 for India, followed by the number
+    var message = "Hello, I'm interested in your services!";
+    var url = "https://api.whatsapp.com/send?phone=" + phoneNumber + "&text=" + encodeURIComponent(message);
+    window.open(url, "_blank");
+}
+
+    
+
